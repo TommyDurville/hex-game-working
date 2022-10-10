@@ -30,6 +30,8 @@ function App() {
     height: 50px;
     border: 0px;
     border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
   `;
 
   let colourOne =
