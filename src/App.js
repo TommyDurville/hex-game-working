@@ -5,6 +5,7 @@ import Incorrect from "./components/Incorrect";
 import Correct from "./components/Correct";
 
 function App() {
+  console.log(req.headers)
   const [finishedGame, setFinishedGame] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
 
