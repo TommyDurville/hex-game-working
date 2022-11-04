@@ -1,12 +1,11 @@
 import styled from "styled-components";
 import React, { useEffect, useState } from "react";
-var express = require('express')
+
 
 import Incorrect from "./components/Incorrect";
 import Correct from "./components/Correct";
 
 function App() {
-  console.log(JSON.stringify(req.headers));
   const [finishedGame, setFinishedGame] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
 
